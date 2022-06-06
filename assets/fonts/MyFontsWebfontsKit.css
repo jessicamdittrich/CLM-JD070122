@@ -1,0 +1,36 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 5040895, 2022-06-06T10:54:48-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: SilverSouthSerif by Set Sail Studios
+ * URL: https://www.myfonts.com/fonts/set-sail-studios/silver-south/serif/
+ * Copyright: Copyright (c) 2018 by Set Sail Studios LTD. All rights reserved.
+ * 
+ * Webfont: BeautifulScarlet-Regular by Tropical Sunlight Co.
+ * URL: https://www.myfonts.com/fonts/tropical-sunlight-co-/beautiful-scarlet/script/
+ * Copyright: Copyright (c) 2021 by Tropical Sunlight. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/4ceaff");
+  
+@font-face {
+  font-family: "SilverSouthSerif";
+  src: url('webFonts/SilverSouthSerif/font.woff2') format('woff2'), url('webFonts/SilverSouthSerif/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BeautifulScarlet-Regular";
+  src: url('webFonts/BeautifulScarletRegular/font.woff2') format('woff2'), url('webFonts/BeautifulScarletRegular/font.woff') format('woff');
+}
+
