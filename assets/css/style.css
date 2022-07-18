@@ -124,8 +124,12 @@ nav ul li a:hover {
     align-items: right;
     margin: -100px 15% -100px 55%;
     text-align: center;
-    border: 10px solid var(--colorBlue);
+    background-color: var(--colorBlue);
     border-radius: 25px;
+}
+
+#scroll-content #portfolio-section .portfolio-div-last {
+    margin-bottom: 50px;
 }
 
 /****** PRICING ******/
