@@ -5,7 +5,6 @@
     --fontText: "Poppins", sans-serif;
     --colorWhite: #F5F5F5;
     --colorBlue: #A0AECD;
-    ;
 }
 
 html,
@@ -59,32 +58,6 @@ nav ul li a:hover {
     color: var(--colorBlue);
 }
 
-nav ul #secondary-nav {
-    position: absolute;
-    padding: 0;
-    top: 80%;
-    left: 30.5%;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    opacity: 0;
-}
-
-nav ul #secondary-nav li {
-    display: block;
-    padding: 10px;
-    border-top: 1px solid black;
-}
-
-nav ul #secondary-nav li:first-child {
-    border-top: none;
-}
-
-#portfolio-nav a:hover+#secondary-nav,
-#secondary-nav:hover {
-    opacity: 1;
-    color: red;
-}
-
 /****** LANDING PAGE ******/
 #landing-content {
     position: fixed;
@@ -133,6 +106,28 @@ nav ul #secondary-nav li:first-child {
 /****** PORTFOLIO ******/
 #scroll-content #portfolio-section {}
 
+#scroll-content #portfolio-section .portfolio-left {
+    position: relative;
+    width: 30%;
+    height: 400px;
+    margin-left: 15%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: var(--colorBlue);
+    border-radius: 25px;
+}
+
+#scroll-content #portfolio-section .portfolio-right {
+    position: relative;
+    width: 30%;
+    height: 400px;
+    align-items: right;
+    margin: -100px 15% -100px 55%;
+    text-align: center;
+    border: 10px solid var(--colorBlue);
+    border-radius: 25px;
+}
+
 /****** PRICING ******/
 #scroll-content #pricing-section {}
 
@@ -168,7 +163,6 @@ nav ul #secondary-nav li:first-child {
 /****** CONTACT ******/
 #scroll-content #contact-section {}
 
-/****** CONTACT SECTION ******/
 #contact-section form {
     width: 50%;
     margin: 25px 25%;
@@ -188,8 +182,8 @@ nav ul #secondary-nav li:first-child {
 
 #contact-section form ul input[type=text] {
     margin-left: 10px;
-    padding: 5px;
-    height: 30px;
+    padding: 5px 5px 5px 10px;
+    height: 32px;
     width: 70%;
     font-family: var(--fontText);
     font-size: 16px;
@@ -199,7 +193,8 @@ nav ul #secondary-nav li:first-child {
 }
 
 #contact-section form ul input[type=submit] {
-    height: 50px;
+    height: 45px;
+    width: 72.5%;
     padding: 10px;
     font-family: var(--fontText);
     font-size: 16px;

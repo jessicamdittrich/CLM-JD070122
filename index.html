@@ -19,15 +19,7 @@
     <nav>
         <ul>
             <li><a href="#about-section">About</a></li>
-            <li id="portfolio-nav">
-                <a href="#portfolio-section">Portfolio</a>
-                <ul id="secondary-nav">
-                    <li><a href="">Brides</a></li>
-                    <li><a href="">Headshots</a></li>
-                    <li><a href="">Maternity</a></li>
-                    <li><a href="">Weddings</a></li>
-                </ul>
-            </li>
+            <li id="portfolio-nav"><a href="#portfolio-section">Portfolio</a></li>
             <li><img src="assets/images/logotype.png" alt="Chelsea Leah Artistry Logo" /></li>
             <li><a href="#pricing-section">Pricing</a></li>
             <li><a href="#contact-section">Contact</a></li>
@@ -59,6 +51,18 @@
 
         <div id="portfolio-section" class="content-sections">
             <h2>Portfolio</h2>
+            <div class="portfolio-left">
+                brides
+            </div>
+            <div class="portfolio-right">
+                headshots
+            </div>
+            <div class="portfolio-left">
+                maternity
+            </div>
+            <div class="portfolio-right">
+                weddings
+            </div>
         </div>
 
         <div id="pricing-section" class="content-sections">
@@ -83,7 +87,8 @@
 
         <div id="contact-section" class="content-sections">
             <h2>Contact</h2>
-            <form>
+            <form id ="form">
+                <p id="returnmessage"></p>
                 <ul>
                     <li>
                         <label for="full-name">Full Name:</label>
@@ -102,7 +107,7 @@
                         <input type="text" id="location" name="location">
                     </li>
                     <li>
-                        <input type="submit" value="Let's get in touch">
+                        <input type="submit" id="submit-button" value="Let's get in touch">
                     </li>
                 </ul>
             </form>
@@ -115,6 +120,8 @@
     </div>
 
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/contact-form.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </body>
 
 </html>
